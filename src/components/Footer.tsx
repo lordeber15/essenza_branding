@@ -1,4 +1,4 @@
-import logo from "@/assets/essenza-logo.png";
+import logo from "@/assets/essenza-logo-white.svg";
 import { Instagram, Mail, Phone, MapPin } from "lucide-react";
 
 const Footer = () => {
