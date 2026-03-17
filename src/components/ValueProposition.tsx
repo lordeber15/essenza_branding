@@ -29,8 +29,20 @@ const ValueProposition = () => {
   const inView = useInView(ref, { once: true, margin: "-100px" });
 
   return (
-    <section className="section-padding gradient-navy" ref={ref}>
-      <div className="max-w-7xl mx-auto text-center">
+    <>
+      <section className="w-full">
+        <motion.img
+          src={exitoImg}
+          alt="Escalando hacia el éxito"
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.8 }}
+          className="w-full h-[50vh] md:h-[60vh] object-cover"
+        />
+      </section>
+      <section className="section-padding gradient-navy" ref={ref}>
+        <div className="max-w-7xl mx-auto text-center">
         <motion.p
           initial={{ opacity: 0, y: 20 }}
           animate={inView ? { opacity: 1, y: 0 } : {}}
