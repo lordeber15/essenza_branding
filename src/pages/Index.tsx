@@ -5,6 +5,7 @@ import ValueProposition from "@/components/ValueProposition";
 import Services from "@/components/Services";
 import Differentials from "@/components/Differentials";
 import Process from "@/components/Process";
+import ClientLogos from "@/components/ClientLogos";
 import Testimonials from "@/components/Testimonials";
 import CtaSection from "@/components/CtaSection";
 import ContactForm from "@/components/ContactForm";
