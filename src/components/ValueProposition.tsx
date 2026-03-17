@@ -1,6 +1,7 @@
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
 import { Palette, BarChart3, Sparkles } from "lucide-react";
+import exitoImg from "@/assets/exito.jpg";
 
 const cards = [
   {
