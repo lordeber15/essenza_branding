@@ -4,19 +4,24 @@ import { ChevronLeft, ChevronRight, Quote } from "lucide-react";
 
 const testimonials = [
   {
-    name: "Dr. José Carlos Revilla",
-    company: "Grupo Oncológico",
-    text: "Essenza transformó nuestra presencia digital. Su enfoque estratégico nos permitió conectar con más pacientes de forma auténtica y profesional.",
-  },
-  {
     name: "Mariajosé",
-    company: "Mariajosé Accessories",
-    text: "El equipo de Essenza entendió la esencia de mi marca desde el primer día. Los resultados superaron mis expectativas.",
+    company: "Joyería fina",
+    text: "Trabajar con Essenza fue clave para darle dirección estratégica a nuestra marca. Supieron entender la esencia de Mariajosé y traducirla en una comunicación más sólida, elegante y coherente con lo que queríamos transmitir.",
   },
   {
-    name: "J&G Building Studio",
-    company: "Arquitectura y Diseño",
-    text: "Profesionalismo, creatividad y resultados. Essenza nos ayudó a posicionar nuestra marca en el mercado de manera efectiva.",
+    name: "J&G",
+    company: "Arquitectura",
+    text: "Essenza entendió rápidamente cómo comunicar el valor de nuestro trabajo. Gracias a su enfoque estratégico y creativo logramos proyectar una imagen mucho más profesional y alineada con nuestra visión como estudio de arquitectura.",
+  },
+  {
+    name: "Dr. José Carlos Revilla",
+    company: "Oncología",
+    text: "Necesitábamos una comunicación clara, profesional y cercana con nuestros pacientes. Essenza nos ayudó a estructurar mejor nuestra presencia digital y a transmitir confianza desde el primer contacto.",
+  },
+  {
+    name: "Amaq",
+    company: "Repostería y chocolatería fina",
+    text: "Essenza logró captar la esencia de nuestra marca y convertirla en una comunicación visual mucho más atractiva. Su acompañamiento fue clave para fortalecer nuestra identidad y presencia.",
   },
 ];
 
