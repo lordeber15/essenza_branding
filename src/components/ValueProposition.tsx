@@ -83,6 +83,7 @@ const ValueProposition = () => {
         </div>
       </div>
     </section>
+    </>
   );
 };
 
