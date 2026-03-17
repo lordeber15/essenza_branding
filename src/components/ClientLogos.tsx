@@ -64,12 +64,12 @@ const ClientLogos = () => {
           {[...logos, ...logos, ...logos].map((logo, i) => (
             <div
               key={i}
-              className="flex-shrink-0 w-40 h-24 mx-8 flex items-center justify-center grayscale hover:grayscale-0 opacity-70 hover:opacity-100 transition-all duration-300"
+              className="flex-shrink-0 w-52 h-32 mx-10 flex items-center justify-center grayscale hover:grayscale-0 opacity-70 hover:opacity-100 transition-all duration-300"
             >
               <img
                 src={logo.src}
                 alt={logo.alt}
-                className="max-w-full max-h-full object-contain"
+                className="max-w-[180px] max-h-[100px] object-contain"
                 loading="lazy"
               />
             </div>
