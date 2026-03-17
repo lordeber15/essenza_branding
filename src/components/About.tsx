@@ -13,8 +13,8 @@ const About = () => {
         <motion.div
           initial={{ opacity: 0, x: -60 }}
           animate={inView ? { opacity: 1, x: 0 } : {}}
-          transition={{ duration: 0.8 }}
-        >
+          transition={{ duration: 0.8 }}>
+          
           <p className="text-primary font-semibold text-sm uppercase tracking-widest mb-3">
             Quiénes somos
           </p>
@@ -31,8 +31,8 @@ const About = () => {
           </p>
           <a
             href="#services"
-            className="mt-8 inline-block text-primary font-semibold hover:underline"
-          >
+            className="mt-8 inline-block text-primary font-semibold hover:underline">
+            
             Conoce nuestros servicios →
           </a>
         </motion.div>
@@ -41,19 +41,19 @@ const About = () => {
           initial={{ opacity: 0, scale: 0.95 }}
           animate={inView ? { opacity: 1, scale: 1 } : {}}
           transition={{ duration: 0.8, delay: 0.2 }}
-          className="relative"
-        >
+          className="relative">
+          
           <img
-            src={teamImg}
+
             alt="Equipo Essenza Branding"
             className="w-full rounded-2xl shadow-2xl"
-            loading="lazy"
-          />
+            loading="lazy" src="/lovable-uploads/d87c07d4-4628-4e7b-abff-e8b1900ea710.png" />
+          
           <div className="absolute -bottom-4 -right-4 w-24 h-24 bg-primary/20 rounded-2xl -z-10" />
         </motion.div>
       </div>
-    </section>
-  );
+    </section>);
+
 };
 
 export default About;
