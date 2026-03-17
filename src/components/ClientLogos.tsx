@@ -57,15 +57,15 @@ const ClientLogos = () => {
       {/* Infinite carousel */}
       <div className="relative overflow-hidden">
         <div className="flex animate-scroll-left">
-          {[...logos, ...logos, ...logos].map((logo, i) => (
+          {[...logos, ...logos].map((logo, i) => (
             <div
               key={i}
-              className="flex-shrink-0 w-52 h-32 mx-10 flex items-center justify-center grayscale hover:grayscale-0 opacity-70 hover:opacity-100 transition-all duration-300"
+              className="flex-shrink-0 w-28 h-20 mx-4 sm:w-36 sm:h-24 sm:mx-6 md:w-44 md:h-28 md:mx-8 lg:w-52 lg:h-32 lg:mx-10 flex items-center justify-center grayscale hover:grayscale-0 opacity-70 hover:opacity-100 transition-all duration-300"
             >
               <img
                 src={logo.src}
                 alt={logo.alt}
-                className="max-w-[180px] max-h-[100px] object-contain"
+                className="max-w-[100px] max-h-[60px] sm:max-w-[130px] sm:max-h-[80px] md:max-w-[160px] md:max-h-[90px] lg:max-w-[180px] lg:max-h-[100px] object-contain"
                 loading="lazy"
               />
             </div>

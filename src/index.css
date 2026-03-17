@@ -91,7 +91,12 @@
     @apply bg-background text-foreground font-body antialiased;
   }
 
-  h1, h2, h3, h4, h5, h6 {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
     @apply font-display;
   }
 }
@@ -122,8 +127,15 @@
   }
 
   @keyframes whatsapp-bounce {
-    0%, 100% { transform: translateY(0); }
-    50% { transform: translateY(-6px); }
+
+    0%,
+    100% {
+      transform: translateY(0);
+    }
+
+    50% {
+      transform: translateY(-6px);
+    }
   }
 
   .pulse-cta {
@@ -131,8 +143,15 @@
   }
 
   @keyframes pulse-cta {
-    0%, 100% { box-shadow: 0 0 0 0 hsl(174 43% 45% / 0.4); }
-    50% { box-shadow: 0 0 0 12px hsl(174 43% 45% / 0); }
+
+    0%,
+    100% {
+      box-shadow: 0 0 0 0 hsl(174 43% 45% / 0.4);
+    }
+
+    50% {
+      box-shadow: 0 0 0 12px hsl(174 43% 45% / 0);
+    }
   }
 
   .timeline-line {
@@ -145,10 +164,22 @@ html {
 }
 
 @keyframes scroll-left {
-  0% { transform: translateX(0); }
-  100% { transform: translateX(-33.333%); }
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-50%);
+  }
 }
 
 .animate-scroll-left {
-  animation: scroll-left 25s linear infinite;
+  width: max-content;
+  animation: scroll-left 30s linear infinite;
+}
+
+@media (max-width: 768px) {
+  .animate-scroll-left {
+    animation: scroll-left 30s linear infinite;
+  }
 }
