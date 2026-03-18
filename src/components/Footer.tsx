@@ -53,7 +53,7 @@ const Footer = () => {
 
         <div className="border-t border-secondary-foreground/10 pt-6 text-center">
           <p className="text-secondary-foreground/50 text-sm">
-            © {new Date().getFullYear()} Essenza Branding. Todos los derechos reservados.
+            © {new Date().getFullYear()} Essenza Estudio. Todos los derechos reservados.
           </p>
         </div>
       </div>

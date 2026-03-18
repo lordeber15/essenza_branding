@@ -1,10 +1,10 @@
 # Essenza Branding - Landing Page
 
-Welcome to the **Essenza Branding** landing page repository. This project is a modern, responsive, and aesthetically pleasing web application designed to showcase the services, portfolio, and identity of Essenza Branding.
+Welcome to the **Essenza Estudio** landing page repository. This project is a modern, responsive, and aesthetically pleasing web application designed to showcase the services, portfolio, and identity of Essenza Estudio.
 
 ## 🎨 Brand Guidelines
 
-**Essenza Branding** utilizes a sophisticated and modern color palette, primarily focusing on variations of Navy Blue and Turquoise to convey trust, creativity, and professionalism.
+**Essenza Estudio** utilizes a sophisticated and modern color palette, primarily focusing on variations of Navy Blue and Turquoise to convey trust, creativity, and professionalism.
 
 ### Typography
 - **Primary Font**: [Montserrat](https://fonts.google.com/specimen/Montserrat) (Weights: 300, 400, 500, 600, 700, 800)

@@ -23,7 +23,7 @@ const Navbar = () => {
     >
       <div className="max-w-7xl mx-auto flex items-center justify-between px-6 py-3">
         <a href="#hero">
-          <img src={logo} alt="Essenza Branding" className="h-10 md:h-12 w-auto" />
+          <img src={logo} alt="Essenza Estudio" className="h-10 md:h-12 w-auto" />
         </a>
 
         {/* Desktop */}
