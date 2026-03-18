@@ -1,73 +1,73 @@
-# Welcome to your Lovable project
+# Essenza Branding - Landing Page
 
-## Project info
+Welcome to the **Essenza Branding** landing page repository. This project is a modern, responsive, and aesthetically pleasing web application designed to showcase the services, portfolio, and identity of Essenza Branding.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+## 🎨 Brand Guidelines
 
-## How can I edit this code?
+**Essenza Branding** utilizes a sophisticated and modern color palette, primarily focusing on variations of Navy Blue and Turquoise to convey trust, creativity, and professionalism.
 
-There are several ways of editing your application.
+### Typography
+- **Primary Font**: [Montserrat](https://fonts.google.com/specimen/Montserrat) (Weights: 300, 400, 500, 600, 700, 800)
 
-**Use Lovable**
+### Color Palette
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+| Color Name | CSS Variable | HSL Value | Description |
+| :--- | :--- | :--- | :--- |
+| **Turquoise** | `--essenza-turquoise` | `174, 43%, 45%` | Primary accent color |
+| **Navy** | `--essenza-navy` | `212, 74%, 17%` | Primary dark background color |
+| **Deep Navy** | `--essenza-navy-deep` | `210, 60%, 12%` | Darker variant for gradients and depth |
+| **Light** | `--essenza-light` | `200, 20%, 97%` | Primary light background color |
 
-Changes made via Lovable will be committed automatically to this repo.
+---
 
-**Use your preferred IDE**
+## 🚀 Technologies Used
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+This project is built with a modern frontend stack:
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+- **Framework**: [React](https://reactjs.org/) + [Vite](https://vitejs.dev/)
+- **Language**: [TypeScript](https://www.typescriptlang.org/)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
+- **UI Components**: [shadcn/ui](https://ui.shadcn.com/)
+- **Icons**: [Lucide React](https://lucide.dev/)
+- **Animations**: [Framer Motion](https://www.framer.com/motion/)
+- **Forms**: [React Hook Form](https://react-hook-form.com/) + [Zod](https://zod.dev/)
 
-Follow these steps:
+---
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
+## 🛠️ Project Setup & Installation
+
+To run this project locally, ensure you have Node.js and npm installed on your machine.
+
+### 1. Clone the repository
+```bash
 git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+cd essenza_branding
 ```
 
-**Edit a file directly in GitHub**
+### 2. Install dependencies
+```bash
+npm install
+```
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+### 3. Start the development server
+```bash
+npm run dev
+```
+The application will be available at `http://localhost:8080` (or the port assigned by Vite).
 
-**Use GitHub Codespaces**
+---
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## 🌐 Features & Architecture
 
-## What technologies are used for this project?
+- **Responsive Design**: Fully responsive layout that works seamlessly across desktop, tablet, and mobile devices.
+- **Modern Animations**: Smooth scroll animations and element transitions powered by Framer Motion and custom CSS keyframes.
+- **Dynamic Contact Form**: Integrated contact form with validation (Zod) and automated webhook submission via n8n.
+- **Theme Support**: Prepared for dark mode extension via Tailwind's `class` strategy.
 
-This project is built with:
+---
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## 📝 Editing the Application
 
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+- **Components**: UI blocks and sections are located in `src/components/`.
+- **Styles**: Global styles and Tailwind configuration are in `src/index.css` and `tailwind.config.ts`.
+- **Assets**: Images and vector graphics are stored in `src/assets/`.

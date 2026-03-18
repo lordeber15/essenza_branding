@@ -80,10 +80,12 @@ const Services = () => {
               initial={{ opacity: 0, y: 30 }}
               animate={inView ? { opacity: 1, y: 0 } : {}}
               transition={{ duration: 0.5, delay: i * 0.1 }}
-              className="group relative bg-card border border-border rounded-2xl p-7 hover:border-primary/50 hover:shadow-lg hover:shadow-primary/5 transition-all duration-300"
+              whileHover={{ y: -8, scale: 1.02 }}
+              whileTap={{ scale: 0.98 }}
+              className="group relative bg-card border border-border rounded-2xl p-7 transition-all duration-300 hover:shadow-xl hover:shadow-primary/10 hover:border-primary/50 cursor-pointer"
             >
-              <div className="w-12 h-12 rounded-xl bg-accent flex items-center justify-center mb-5 group-hover:bg-primary/20 transition-colors">
-                <s.icon className="w-6 h-6 text-primary" />
+              <div className="w-12 h-12 rounded-xl bg-accent flex items-center justify-center mb-5 group-hover:bg-primary group-hover:text-primary-foreground transition-colors duration-300">
+                <s.icon className="w-6 h-6 text-primary group-hover:text-primary-foreground transition-colors duration-300" />
               </div>
               <h3 className="text-lg font-bold text-foreground mb-2">{s.title}</h3>
               <p className="text-muted-foreground text-sm leading-relaxed mb-4">
@@ -91,7 +93,7 @@ const Services = () => {
               </p>
               <a
                 href="#contact"
-                className="text-primary text-sm font-semibold hover:underline"
+                className="text-primary text-sm font-semibold group-hover:underline inline-block"
               >
                 Saber más →
               </a>

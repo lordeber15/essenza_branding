@@ -29,7 +29,9 @@ const CtaSection = () => {
           initial={{ opacity: 0, y: 20 }}
           animate={inView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.7, delay: 0.4 }}
-          className="mt-10 inline-block bg-secondary text-secondary-foreground font-bold px-10 py-4 rounded-lg text-lg pulse-cta hover:scale-105 transition-transform"
+          whileHover={{ scale: 1.05 }}
+          whileTap={{ scale: 0.95 }}
+          className="mt-10 inline-block bg-secondary text-secondary-foreground font-bold px-10 py-4 rounded-lg text-lg pulse-cta shadow-lg shadow-black/20"
         >
           AGENDAR CITA
         </motion.a>

@@ -45,18 +45,22 @@ const Hero = () => {
           transition={{ duration: 0.8, delay: 0.8 }}
           className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4"
         >
-          <a
+          <motion.a
             href="#cta"
-            className="inline-flex items-center gap-2 bg-primary text-primary-foreground font-bold px-8 py-4 rounded-lg text-lg hover:scale-105 hover:shadow-lg hover:shadow-primary/30 transition-all duration-300"
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 0.95 }}
+            className="inline-flex items-center gap-2 bg-primary text-primary-foreground font-bold px-8 py-4 rounded-lg text-lg hover:shadow-lg hover:shadow-primary/30 transition-all duration-300"
           >
             🟢 Agendar cita
-          </a>
-          <a
+          </motion.a>
+          <motion.a
             href="#services"
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 0.95 }}
             className="inline-flex items-center gap-2 border-2 border-secondary-foreground/30 text-secondary-foreground font-semibold px-8 py-4 rounded-lg text-lg hover:border-primary hover:text-primary transition-all duration-300"
           >
             Ver servicios
-          </a>
+          </motion.a>
         </motion.div>
       </div>
     </section>

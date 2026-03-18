@@ -149,14 +149,16 @@ const ContactForm = () => {
               )}
             </div>
 
-            <button
+            <motion.button
+              whileHover={{ scale: 1.02 }}
+              whileTap={{ scale: 0.95 }}
               type="submit"
               disabled={isSubmitting}
               className="w-full sm:w-auto bg-primary text-primary-foreground font-bold px-8 py-3.5 rounded-lg hover:opacity-90 transition-opacity flex items-center justify-center gap-2 disabled:opacity-50"
             >
               <Send size={18} />
               {isSubmitting ? "Enviando..." : "Enviar mensaje"}
-            </button>
+            </motion.button>
           </motion.form>
         )}
       </div>
