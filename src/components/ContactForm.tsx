@@ -29,9 +29,29 @@ const ContactForm = () => {
   });
 
   const onSubmit = async (data: ContactForm) => {
-    // Simulate submission
-    await new Promise((r) => setTimeout(r, 1000));
-    setSubmitted(true);
+    try {
+      const url = new URL("https://n8n.impalexander.store/webhook/fb1645bf-db04-40a1-bf9e-ae09218c5515");
+      Object.keys(data).forEach(key =>
+        url.searchParams.append(key, String(data[key as keyof ContactForm]))
+      );
+
+      const response = await fetch(url.toString(), {
+        method: "GET",
+        headers: {
+          "Accept": "application/json",
+        },
+      });
+
+      if (response.ok) {
+        setSubmitted(true);
+      } else {
+        console.error("Error al enviar el formulario:", response.statusText);
+        alert("Ocurrió un error al enviar el mensaje. Por favor intenta de nuevo.");
+      }
+    } catch (error) {
+      console.error("Error:", error);
+      alert("Ocurrió un error de red al enviar el mensaje. Por favor intenta de nuevo.");
+    }
   };
 
   const inputClass =
