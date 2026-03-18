@@ -15,11 +15,11 @@ const About = () => {
           animate={inView ? { opacity: 1, x: 0 } : {}}
           transition={{ duration: 0.8 }}>
 
-          {/* <p className="text-primary font-semibold text-sm uppercase tracking-widest mb-3">
+          <p className="text-3xl md:text-3xl text-primary font-semibold text-sm uppercase tracking-widest mb-3">
             Quiénes somos
-          </p> */}
+          </p>
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground leading-tight">
-            Quiénes somos
+            {/* Quiénes somos */}
             {/* <span className="text-primary">creativa y profesional</span> */}
           </h2>
           <p className="mt-6 text-muted-foreground text-lg leading-relaxed">
