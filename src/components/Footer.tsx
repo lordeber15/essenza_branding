@@ -10,8 +10,8 @@ const Footer = () => {
           <div>
             <img src={logo} alt="Essenza Branding" className="h-10 w-auto mb-4" />
             <p className="text-secondary-foreground/70 text-sm leading-relaxed">
-              Agencia de branding y marketing estratégico para marcas que quieren
-              diferenciarse y crecer.
+              Essenza Estudio es un equipo creativo que transforma marcas para hacerlas crecer.
+              Integramos branding, marketing y contenido para construir una presencia sólida y efectiva.
             </p>
           </div>
 
