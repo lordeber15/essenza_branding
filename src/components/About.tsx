@@ -44,7 +44,7 @@ const About = () => {
 
             alt="Equipo Essenza Estudio"
             className="w-full rounded-2xl shadow-2xl"
-            loading="lazy" src="/lovable-uploads/d87c07d4-4628-4e7b-abff-e8b1900ea710.png" />
+            loading="lazy" src="/uploads/d87c07d4-4628-4e7b-abff-e8b1900ea710.png" />
 
           <div className="absolute -bottom-4 -right-4 w-24 h-24 bg-primary/20 rounded-2xl -z-10" />
         </motion.div>
